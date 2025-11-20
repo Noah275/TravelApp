@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(images/image\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+nav{
+    width: 1000px;
+    margin: auto;
+}
+
+.navContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.navContent > h1{
+    color: #ffffff;
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navItems > a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.navItems > a:nth-child(1){
+    border-bottom: 1px solid;
+    padding: 0.5rem;
+}
+
+
+.headWrapper{
+    width: 850px;
+    margin: auto;
+}
+
+.headWrapper > h1{
+    width: 300px;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.headBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#FFFFFF1A;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+}
+
+.searchItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.searchItem > img{
+    width: 13px;
+}
+
+.searchItem > p{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.checkWrapper{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.checkBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;  
+}
+
+.checkBox > img{
+    width: 13px;
+}
+
+.checkBox > p{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.checkBox1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.checkBox1 > img{
+    width: 13px;
+}
+
+.checkBox1 > p{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.roomBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.roomBox > img{
+    width: 13px;
+}
+
+.roomBox > p{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.checkWrapper > button{
+    width: 100px;
+    color: #1B4E7A;
+    padding: 0.5rem 0.7rem;
+    border-radius: 14px;
+    border: none;
+    font-size: 13px;
+}
+
+.headWrapper > h2{
+    margin-block: 2rem;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.catWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catBox{
+    text-align: center;
+}
+
+.catBox > img{
+    width: 25px;
+}
+
+.catBox > p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.catBox1{
+    text-align: center;
+}
+
+.catBox1 > img{
+    width: 25px;
+}
+
+.catBox1 > p{
+    color: #ffffff;
+    font-size: 13px;
+    border-bottom: 1px solid #ffffff;
+    padding: 0.5rem;
+}
+
+.arrowBox{
+    position: relative;
+}
+
+.arrowBox > img{
+    position: absolute;
+    right: -2rem;
+    bottom: 0.5rem;
+    width: 25px;
+}
+
+
+/* section 1 */
+
+main{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -7rem;
+}
+
+section{
+    width: 850px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.popWrapper > h4{
+     color: #ffffff;
+    padding-block:1rem ;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.desWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    width: 800px;
+    gap: 1.5rem;
+}
+
+.desCard{
+    /* border: 1px solid; */
+    box-shadow: 0px 4.43px 17.71px 0px #9E9E9E40;
+    width: 250px;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.desCard > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+
+.desContent{
+    line-height: 1.5rem;
+}
+
+.desContent > h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desContent >p{
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.desBox > h2{
+    display: flex;
+    gap: 0.3rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desBox > h2 > span > img{
+    width: 15px;
+}
+
+.actBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 1rem;
+}
+.actContent{
+    text-align: center;
+}
+
+.actContent > img{
+    width: 15px;
+}
+
+.actContent > p{
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.desCard > il{
+    line-height: 1.3rem;
+}
+
+.desCard > il > li{
+    opacity: 0.5;
+    font-size: 12.5px;
+
+}
+
+.priceBox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.priceBox > p{
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.priceBox > h1{
+    font-size: 15px;
+}
+
+.priceContent{
+    position: relative;
+}
+
+.priceContent > p{
+    position: absolute;
+    font-size: 10px;
+    opacity: 0.5;
+    right: 4rem;
+    bottom: 0;
+}
+
+
+.des__img{
+    width: 220px;
+    height: 145px;
+    border-radius: 10px;
+}
+
+.des__img > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* second second */ 
+.recWrapper > h4{
+    /* color: #ffffff; */
+    padding-block:1rem ;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.viewWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    width: 800px;
+    gap: 1.5rem;
+}
+
+.sumCard{
+    width: 250px;
+    background-image: url(images/background\ color.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    box-shadow: 0px 4.43px 17.71px 0px #9E9E9E40;
+    border-radius: 15px;
+}
+
+.sumCard > h1 {
+    margin-block: 1.5rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.sumItems > p{
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+/* section 3  */
+.packWrapper > h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-block: 1rem;
+}
+  
+
+ /* section 4 */
+.honeykWrapper > h4{
+     text-transform: capitalize;
+    font-size: 25px;
+    padding-block: 1rem;
+
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+    background-color: #141414;
+    padding-block: 1.5rem;
+}
+
+.footWrapper{
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footWrapper > h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footBox{
+    display: flex;
+    gap: 7rem; 
+    width: 700px;
+}
+
+.footItems > P{
+    color: #808080;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.footContent{
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    margin-block: 1rem;
+}
+
+.footEndwap{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+
+}
+
+.helBox{
+    border: 1px solid #808080;
+    padding: 0.5rem;
+}
+
+.helBox > p{
+    color: #808080;
+    font-size: 12px;
+}
+
+.socialFoot{
+     display: flex;
+    gap: 0.8rem;
+}
+
+.socialFoot > img{
+    width: 20px;
+    height: 25px;
+}
+
+.netflixContent{
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    margin-block: 1rem;
+}
+
+.helItems{
+    width: 700px;
+    color: #808080;
+    font-size: 12px;
+}
