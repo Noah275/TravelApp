@@ -452,7 +452,7 @@ main{
     font-weight: 400;
 }
 
-.desContent >p{
+.desContent > p{
     font-size: 13px;
     opacity: 0.5;
 }
@@ -487,11 +487,15 @@ main{
     opacity: 0.5;
 }
 
-.desCard > il{
+.orderNum{
+    padding-left: 1rem;
+}
+
+.orderNum > il{
     line-height: 1.3rem;
 }
 
-.desCard > il > li{
+.orderNum > il > li{
     opacity: 0.5;
     font-size: 12.5px;
 
