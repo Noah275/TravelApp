@@ -9,20 +9,29 @@
 <body>
     <header>
         <nav>
-            <div class="navContent">
+            <div class="navContent" id="home">
                 <h1>trxvl.</h1>
 
-                <div class="navItems">
-                    <a href="">home</a>
-                    <a href="">stays</a>
-                    <a href="">flights</a>
-                    <a href="">packages</a>
-                    <a href="">sign up</a>
+                <!-- hamburger code -->
+                <label for="toggle" class="hamburger">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+
+                <div class="navRight">
+                    <div class="navItems">
+                    <a href="#home">home</a>
+                    <a href="#stays">stays</a>
+                    <a href="#flight">flights</a>
+                    <a href="#packages">packages</a>
+                    <a href="#sign">sign up</a>
                 </div>
+                </div>
+
             </div>
         </nav>
 
         <div class="headWrapper">
+
+            <div class="head__Wrapper">
             <h1>The whole world awaits.</h1>
 
             <div class="headBox">
@@ -31,6 +40,8 @@
                     <img src="images/search icon.png" alt="icon">
                     <p>Search destinations, hotels</p>
                 </div> 
+
+                <div class="boxWrapper">
                 
                 <div class="checkWrapper">
                 <div class="checkBox">
@@ -38,20 +49,29 @@
                     <p>Check in</p>
                 </div>
 
+                <div class="midLine"></div>
+
                 <div class="checkBox1">
                     <img src="images/check in.png" alt="logo">
                     <p>Check out</p>
                 </div>
+                </div>
 
-                <div class="roomBox">
+
+                <div class="roomWrapper">
+                    <div class="roomBox">
                     <img src="images/male icon.png" alt="icon">
                     <p>1 room, 2 adults</p>
+                </div>
                 </div>
 
                 <button>Search</button>
                 </div>
             </div>
+        </div>
+            
 
+            <div class="cat__Box">
             <h2>Top categories</h2>
 
             <div class="catWrapper">
@@ -110,11 +130,12 @@
                 <div class="arrowBox">
                     <img src="images/ep_arrow-right-bold.png" alt="logi">
                 </div>
+                </div>
             </div>
     </header>
 
     <main>
-        <section>
+        <section class="secOne" id="stays">
         <div class="popWrapper">
             <h4>popular beach destinations</h4>
 
@@ -328,8 +349,8 @@
  
   <!-- section 2 -->
 
-    <section>
-        <div class="recWrapper">
+    <section class="secTwo">
+        <div class="recWrapper" id="flight">
             <h4>recently viewed</h4>
 
             <div class="viewWrapper">
@@ -458,8 +479,8 @@
 
     <!-- section 3 -->
 
-    <section>
-        <div class="packWrapper">
+    <section class="secThree">
+        <div class="packWrapper" id="packages">
             <h4>all inclusive packages!</h4>
 
             <div class="desWrapper">
@@ -674,9 +695,9 @@
 
 
           <!-- section 4 -->
-    <section>
+    <section class="secFour">
         <div class="honeykWrapper">
-            <h4>all inclusive packages</h4>
+            <h4>honeymoon freebies special</h4>
 
             <div class="desWrapper">
             <div class="desCard">
@@ -890,6 +911,7 @@
 </main>
 
 <footer>
+    <div class="footCircle" id="sign">
     <div class="footWrapper">
         <h1>Trxvl.</h1>
 
@@ -940,6 +962,8 @@
         <p>© 1997-2021 Netflix, Inc.  {i-062d573a0ee099242}</p>
         </div>
         </div>
+
+    </div>
 </footer>
     
 </body>
